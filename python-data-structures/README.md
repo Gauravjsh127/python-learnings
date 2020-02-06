@@ -10,3 +10,11 @@ Lists, strings and tuples are ordered sequences of objects. Unlike strings that 
 ## List
 
 Lists are just like the arrays, declared in other languages. Lists need not be homogeneous always which makes it a most powerful tool in Python. A single list may contain DataTypes like Integers, Strings, as well as Objects. Lists are mutable, and hence, they can be altered even after their creation.
+
+
+## Strings
+
+Strings are amongst the most popular types in Python. We can create them simply by enclosing characters in quotes. Python treats single quotes the same as double quotes. Creating strings is as simple as assigning a value to a variable. For example −
+
+var1 = 'Hello World!'
+var2 = "Python Programming"

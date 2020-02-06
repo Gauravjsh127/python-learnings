@@ -31,7 +31,7 @@ class solution:
         """
         self.list = mylist
 
-    def display_list(self):
+    def display(self):
         """
         Display list
         """
@@ -95,17 +95,17 @@ class solution:
 if __name__ == "__main__":
     mylist = [1, 2, 3]
     soln = solution(mylist)
-    soln.display_list()
+    soln.display()
     soln.append(4)
-    soln.display_list()
+    soln.display()
     soln.insert(0, 5)
-    soln.display_list()
+    soln.display()
     soln.remove(3)
-    soln.display_list()
+    soln.display()
     soln.pop(2)
-    soln.display_list()
+    soln.display()
     soln.clear()
-    soln.display_list()
+    soln.display()
     soln.append(4)
     soln.append(4)
     soln.append(2)
@@ -113,6 +113,6 @@ if __name__ == "__main__":
     print(soln.count(4))
     print(soln.length())
     soln.sort()
-    soln.display_list()
+    soln.display()
     soln.reverse()
-    soln.display_list()
+    soln.display()
