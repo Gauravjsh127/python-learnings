@@ -18,3 +18,12 @@ Strings are amongst the most popular types in Python. We can create them simply 
 
 var1 = 'Hello World!'
 var2 = "Python Programming"
+
+## Stack
+
+A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner. In stack, a new element is added at one end and an element is removed from that end only. The insert and delete operations are often called push and pop.
+
+## Queue
+
+Like stack, queue is a linear data structure that stores items in First In First Out (FIFO) manner. With a queue the least recently added item is removed first. A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.
+
