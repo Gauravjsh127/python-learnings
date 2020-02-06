@@ -21,6 +21,7 @@ class solution:
         Initialization
         """
         self.stack = mystack
+        self.maxsize = 10
 
     def display(self):
         """
@@ -38,12 +39,18 @@ class solution:
         """
             Adds the element at the top of the stack – Time Complexity : O(1) 
         """
+        if(len(self.stack) == self.maxsize):
+            print('Underflow')
+            return
         self.stack.append(elem)
 
     def pop(self):
         """
             Deletes the top most element of the stack – Time Complexity : O(1)
         """
+        if(len(self.stack) == 0):
+            print('Underflow')
+            return
         self.stack.pop()
 
     def top(self):
