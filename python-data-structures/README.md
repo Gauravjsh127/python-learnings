@@ -27,3 +27,6 @@ A stack is a linear data structure that stores items in a Last-In/First-Out (LIF
 
 Like stack, queue is a linear data structure that stores items in First In First Out (FIFO) manner. With a queue the least recently added item is removed first. A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.
 
+## dict
+
+A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
