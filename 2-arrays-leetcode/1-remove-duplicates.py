@@ -1,14 +1,13 @@
 """
 Remove Duplicates from Sorted Array
 
-Source : 
+Source: 
 
 https://www.geeksforgeeks.org/remove-duplicates-sorted-array/
 """
 
 
 class Solution(object):
-    
     # Not Using extra space
     def removeDuplicates(self, nums):
         """
@@ -35,8 +34,6 @@ class Solution(object):
         nums[j] = nums[size - 1]
         j += 1
         return j
-
-
 
 
 if __name__ == "__main__":
