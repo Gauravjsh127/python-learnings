@@ -15,13 +15,13 @@ class Solution(object):
         :rtype: None Do not return anything, modify nums in-place instead.
         """
         size = len(nums)
-        if size ==0 or size==1 or k==0:
+        if size == 0 or size == 1 or k == 0:
             return
-        for x in range (0,k):
-            last=nums[size-1]
-            for j in range(size-1,0,-1):
-                nums[j]=nums[j-1]
-            nums[0]=last
+        for x in range(0, k):
+            last = nums[size - 1]
+            for j in range(size - 1, 0, -1):
+                nums[j] = nums[j - 1]
+            nums[0] = last
 
 
 
