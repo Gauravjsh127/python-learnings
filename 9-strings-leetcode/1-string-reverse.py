@@ -8,7 +8,7 @@ Output: ["o","l","l","e","h"]
 
 Source: 
 
-https://leetcode.com/problems/min-stack/discuss/500644/Two-Stack-C%2B%2B-solution
+https://www.geeksforgeeks.org/reverse-string-python-5-different-ways/
 """
 
 class Solution(object):
