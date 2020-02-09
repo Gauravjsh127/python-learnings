@@ -2,6 +2,7 @@
 
 This modules provide sample python code solving the leet code problems related to Strings
 
+# Category : Easy problems
 
 ## Problem 1 : Reverse string
 
