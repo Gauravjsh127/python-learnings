@@ -21,3 +21,11 @@ Example 3: Input: 120 Output: 21
 Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
 Examples: s = "leetcode" return 0.
 s = "loveleetcode", return 2.
+
+
+## Problem 4 : Valid anagram
+
+Given two strings s and t , write a function to determine if t is an anagram of s.
+
+Example 1: Input: s = "anagram", t = "nagaram" Output: true 
+Example 2: Input: s = "rat", t = "car" Output: false
