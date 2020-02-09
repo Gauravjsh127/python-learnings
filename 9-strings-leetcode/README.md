@@ -42,4 +42,26 @@ Example 2: Input: "race a car" Output: false
 String to Integer
 Example 1: Input: "42" Output: 42
 
+## Problem 7 : First-occurance of substring in string : KMP algorithm
 
+Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+Example 1: Input: haystack = "hello", needle = "ll" Output: 2
+Example 2: Input: haystack = "aaaaa", needle = "bba" Output: -1
+
+String : M substring :N
+Brute force : https://nulpointerexception.com/2019/02/10/a-beginner-guide-to-brute-force-algorithm-for-substring-search/  O(M * N)
+
+
+KMP algorithm:  O(M + N)
+
+Firts compute longest suffix that is also prefix : ie kmp matrx 
+https://www.youtube.com/watch?v=KG44VoDtsAA
+
+
+## Problem 8 : Longest prefix
+
+Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string "".
+Example 1: Input: ["flower","flow","flight"] Output: "fl"
+Example 2: Input: ["dog","racecar","car"] Output: ""
+Explanation: There is no common prefix among the input strings.
