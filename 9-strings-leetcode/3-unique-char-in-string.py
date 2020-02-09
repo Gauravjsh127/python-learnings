@@ -1,14 +1,13 @@
 
 """
-Reverse number
+First Unique Character in a String
 
-Example 1: Input: 123 Output: 321
-Example 2: Input: -123 Output: -321
-Example 3: Input: 120 Output: 21
-
+Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
+Examples: s = "leetcode" return 0.
+s = "loveleetcode", return 2.
 Source: 
+https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/881/
 
-https://www.geeksforgeeks.org/reverse-string-python-5-different-ways/
 """
 
 class Solution(object):
