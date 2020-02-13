@@ -8,18 +8,18 @@ https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
 """
 
 class Graph: 
-    # Constructor 
-    def __init__(self): 
-  
-        # default dictionary to store graph 
+    # Constructor
+    def __init__(self):
+
+        # default dictionary to store grap
         self.graph = {} 
   
-    # function to add an edge to graph 
-    def addEdge(self,u,v): 
+    # function to add an edge to graph
+    def addEdge(self,u ,v):
         if u in self.graph:
             self.graph[u].append(v)
         else:
-             self.graph[u]=[v]
+            self.graph[u] = [v]
   
     # Function to print a BFS of graph 
     def BFS(self, s): 

@@ -41,4 +41,18 @@ Output: ["the", "is", "sunny", "day"] Explanation: "the", "is", "sunny" and "day
 Example 1:  AABBBCCCCDDDDDDABBBBB 
 output : BAD
 
+## Problem 5 : Breadth First Algorithm python
 
+ BFS implements a specific strategy for visiting all the nodes (vertices) of a graph
+
+ BFS starts from a node, then it checks all the nodes at distance one from the starting node, then it checks all the nodes at distance two and so on. In order to remember the nodes to be visited, BFS uses a queue. The algorithm can keep track of the vertices it has already checked to avoid revisiting them, in case a graph had one or more cycles.
+
+BFS :  Use Queue
+
+## Problem 6 : Depth first search Algorithm
+
+ BFS implements a specific strategy for visiting all the nodes (vertices) of a graph
+
+Depth First Traversal (or Search) for a graph is similar to Depth First Traversal (DFS) of a tree. The only catch here is, unlike trees, graphs may contain cycles, so we may come to the same node again. To avoid processing a node more than once, we use a boolean visited array.
+
+DFS :  Use Stack
