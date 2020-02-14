@@ -23,7 +23,22 @@ lis = [[1, 4, 7], [3, 6, 9], [2, 59, 8]]
 print(lis)
 lis.sort()
 print(lis)
+
+# Sorting list of lists by the second element of each sub-list
 lis2 = sorted(lis, key=lambda x: x[1])
 print(lis)
 print(lis2)
 
+
+# Python Lambda
+# A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.
+
+
+# lambda arguments : expression
+
+
+x = lambda a : a + 10
+print(x(5))
+
+x = lambda a, b : a * b
+print(x(5, 6))
