@@ -65,3 +65,22 @@ If there is no common prefix, return an empty string "".
 Example 1: Input: ["flower","flow","flight"] Output: "fl"
 Example 2: Input: ["dog","racecar","car"] Output: ""
 Explanation: There is no common prefix among the input strings.
+
+## Problem 9 : Find all anagrams in the string
+Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string "".
+Example 1: Input: ["flower","flow","flight"] Output: "fl"
+Example 2: Input: ["dog","racecar","car"] Output: ""
+Explanation: There is no common prefix among the input strings.
+
+Example 1: Input:
+s: "cbaebabacd" p: "abc" Output: [0, 6]
+Explanation:
+The substring with start index = 0 is "cba", which is an anagram of "abc".
+The substring with start index = 6 is "bac", which is an anagram of "abc".
+Example 2: Input: s: "abab" p: "ab"
+Output: [0, 1, 2]
+Explanation:
+The substring with start index = 0 is "ab", which is an anagram of "ab".
+The substring with start index = 1 is "ba", which is an anagram of "ab".
+The substring with start index = 2 is "ab", which is an anagram of "ab".
