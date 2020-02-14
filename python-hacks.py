@@ -1,3 +1,37 @@
+import heapq 
+  
+# initializing list 
+li = [5, 7, 9, 1, 3] 
+  
+# using heapify to convert list into heap 
+heapq.heapify(li) 
+  
+# printing created heap 
+print ("The created heap is : ",end="") 
+print (list(li)) 
+  
+# using heappush() to push elements into heap 
+# pushes 4 
+heapq.heappush(li,4) 
+  
+# printing modified heap 
+print ("The modified heap after push is : ",end="") 
+print (list(li)) 
+  
+# using heappop() to pop smallest element 
+print ("The popped and smallest element is : ",end="") 
+print (heapq.heappop(li)) 
+
+
+
+
+
+
+
+
+
+
+
 
 
 # vowels list
@@ -14,6 +48,13 @@ vowels.sort(reverse=True)
 # print vowels
 print('Sorted list (in Descending):', vowels)
 
+
+
+
+
+
+
+
 # initialize array
 
 # 1D
@@ -25,6 +66,13 @@ cols = 2
 rows = 4
 lis_2D = [[1 for i in range(0,cols)] for i in range(0,rows)]
 print(lis_2D)
+
+
+
+
+
+
+
 
 # ASCII Value to charcters and Vice versa
 ch = 'a'
@@ -44,6 +92,10 @@ print(lis)
 lis2 = sorted(lis, key=lambda x: x[1])
 print(lis)
 print(lis2)
+
+
+
+
 
 
 # Python Lambda
