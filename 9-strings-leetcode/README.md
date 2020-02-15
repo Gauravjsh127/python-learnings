@@ -85,3 +85,13 @@ The substring with start index = 0 is "ab", which is an anagram of "ab".
 The substring with start index = 1 is "ba", which is an anagram of "ab".
 The substring with start index = 2 is "ab", which is an anagram of "ab".
 
+## Problem 10
+
+Photo album order
+
+Input :
+photo.jpg, Warsaw, 2013-09-05 14:08:15
+john.png, London, 2015-06-20 15:13:22
+
+output :
+'Warsaw02.jpg', 'London1.png'
