@@ -38,13 +38,11 @@ class LastKWebsiteVisited():
         node = self.head
         if node == None:
             return
-
         ## Data matches with the very first node
         if (node.data == data):
             self.head = node.next
             del node
             return
-
         prevnode = None
         while node.data != data:
             prevnode = node
@@ -76,7 +74,7 @@ class LastKWebsiteVisited():
             node = node.next
 
 
-K = 2
+K = 3
 obj = LastKWebsiteVisited(K)
 WEB_URL_LIST = 'AABBBCCCCDDDDDDABBBBB'
 print(WEB_URL_LIST)

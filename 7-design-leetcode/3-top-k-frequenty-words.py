@@ -8,5 +8,32 @@ Output: ["the", "is", "sunny", "day"] Explanation: "the", "is", "sunny" and "day
 """
 
 import random
+import collections
+from collections import OrderedDict
 
 class Solution(object):
+    def __init__(self, k):
+        self.k = k
+        self.wordDict = {}
+
+    def topKFrequent(self, words):
+        for word in words:
+            if word in self.wordDict:
+                self.wordDict[word] += 1
+            else:
+                self.wordDict[word] = 1
+        # Sort Dict by keys
+        OrderedDict(sorted(self.wordDict.items(), key=lambda t: t[1]))
+        res = []
+        j = 0
+        for key in self.wordDict:
+            res.append(key)
+            if len(res) == self.k:
+                return res
+        return res
+
+
+if __name__ == "__main__":
+    s = Solution(1)
+    words = ["i", "love", "leetcode", "i", "love", "coding"]
+    print(s.topKFrequent(words))
